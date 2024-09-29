@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.pagination .page-item .page-link {
+  background-color: #343a40;
+  border-color: #343a40;
+  color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.pagination .page-item.active .page-link {
+  background-color: #1a1e21;
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link:focus {
+  background-color: #1a1e21;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.pagination .page-item.disabled .page-link {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #ffffff;
+}
+.card-sale-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 3px;
+  z-index: 1;
 }

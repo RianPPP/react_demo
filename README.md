@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+React component bình thường gồm 2 loại: class component
+                                        functional component
+
+
+react-bootstrap là một thư viện có sẵn components, chỉ việc sử dụng
+import {row, Col} from 'react-bootstrap'
