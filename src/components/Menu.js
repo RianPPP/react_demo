@@ -1,4 +1,4 @@
-import "../Style/StyleIndex.css";
+import "../index";
 import React, { useState } from "react";
 
 import { Card, Button, Container, Row, Col, Form, Pagination } from "react-bootstrap";
