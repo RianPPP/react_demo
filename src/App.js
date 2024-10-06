@@ -5,7 +5,6 @@ import CarouselComponent from "./components/Carousel";
 import CardComponent from "./components/Card";
 import ReservationForm from "./components/Reser";
 import WebFooter from "./components/Footer";
-import FullMenu from "./components/Menu";
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
               <ReservationForm />
             </>
           } />
-          <Route path="/full-menu" element={<FullMenu />} />
         </Routes>
         <WebFooter />
       </div>
